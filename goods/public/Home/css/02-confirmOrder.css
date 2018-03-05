@@ -1,0 +1,43 @@
+/*main区*/
+.main{width: 1180px;background: #fff;margin: 64px auto;border-radius: 22px;}
+.addr,.order{margin:0 30px;border-bottom: 1px solid #aaa;}
+.addr h2{font-size: 18px;line-height: 60px;font-weight: bold;color: #060606;}
+.addr li{width: 250px;height: 103px;margin-right: 40px;cursor: pointer;float: left;font-size: 14px;background: url(../images/xinfen.png) -288px 0;color:#a6a6a6}
+.addr .ac{background: url(../images/xinfen.png) 0 0;color:#202020}
+.addr .ac .man{border-bottom: 1px solid #929292;}
+.addr li:nth-child(4){margin-right: 0;}
+.addr .text{padding: 10px 18px 0;}
+.addr .man{line-height: 32px;border-bottom: 1px solid #d3d3d3;margin-bottom: 8px;}
+.addr i{float: right;}
+.addr .dizhi{line-height: 20px;}
+.addr h3{line-height: 64px;font-size: 16px;color: #de0048;font-weight: normal;}
+.order h3{line-height: 68px;font-size: 18px;color: #202020;}
+.shop{width: 1119px;height: 293px;border-radius: 22px;border: 1px solid #d9d9d9;margin-bottom: 30px;overflow: hidden;}
+.things{padding: 20px 0 0 20px;float: left;width: 750px;}
+.things li{padding: 14px 0 24px 0;border-bottom: 1px solid #ccc;position: relative;}
+.things .last{border-bottom: none;}
+.things .pic{width: 98px;height: 98px;overflow: hidden;border-radius: 22px;float: left;}
+.things .pic img{width: 100%;}
+.things li p{float: left;font-size: 14px;line-height: 22px;color: #565454;padding: 20px 14px 0;}
+.things li em{position: absolute;top: 58px;left: 459px;}
+.things li i{position: absolute;top: 0px;left: 113px;}
+.details{background: #f5f5f5;float: right;height: 294px;}
+.details h2{font-size: 20px;line-height: 52px;color: #3f3e3e;text-align: center;font-weight: 500;}
+.details h2 span{color: #de0049;}
+.details .pic{padding:15px 15px 22px;border-bottom: 1px solid #ccc;}
+.details ul,ol{font-size: 18px;color: #3f3e3e;padding-top: 8px;}
+.details li{height: 30px;line-height: 33px;}
+.details ul{float: left;padding-left: 15px;}
+.details ol{float: right;padding-right: 15px;text-align: right;}
+.discount{padding: 8px 30px 16px 30px;}
+.discount .left{float: left;}
+.discount h2{line-height: 50px;font-size: 18px;color: #202020;}
+.discount .left p{line-height: 35px;padding-left: 37px;color: #202020;cursor: pointer;background: url(../images/youhuiquan.png) no-repeat 0 8px;}
+.discount .left .ac{background: url(../images/youhuiquan.png) no-repeat 0 -26px;}
+.discount .right{float: right;}
+.discount .right p{line-height: 50px;font-size: 24px;text-align: right;}
+.discount .right span{color: #de0049;font-weight: bold;}
+.discount button{line-height: 40px;margin: 9px 0;border-radius: 22px;cursor: pointer;}
+.discount .addr{padding: 0 22px;background: #fef2f2;border: 1px solid #de0049;color: #de0049;}
+.discount .submit{border: none;margin-left: 94px;font-size: 18px;line-height: 42px;background:#de0049;}
+.discount .submit a{color: #fff;padding: 0 53px;}

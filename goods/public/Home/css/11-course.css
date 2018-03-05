@@ -1,0 +1,39 @@
+.banner img{width: 100%}
+
+.main .addr{font-size: 14px;color: #565656;margin: 40px 0 30px 0;font-weight: bold;}
+.main .addr a{padding-right: 10px;}
+.main .addr .ac{color: #7c7c7d;}
+.main .brand{text-align: center;padding-bottom: 72px;}
+.brand p:nth-child(1){font-size: 18px;font-weight: bold;color: #54565b;line-height: 40px;}
+.brand p:nth-child(2){font-size: 12px;text-transform: uppercase;color: #626871;padding-bottom: 14px;}
+.brand p:nth-child(3){width: 34px;height: 1px;background: #86888a;margin: 0 auto;}
+.brand p:nth-child(4){width: 34px;height: 1px;background: #070707;margin: 0 auto;}
+.circle{margin-bottom: 40px;position: relative;height: 1175px;background: url(../images/tuoyuan.png);}
+.yuan{cursor: pointer;display: inline-block;position: absolute;width: 33px;height: 33px;background: rgba(255,0,0,0.2);border-radius: 50%;}
+.circle h2{font-size: 30px;color: pink;position: absolute;top: 570px;left: 480px}
+.circle .ac{display: inline-block;background: rgba(255,0,0,0.8);border-radius: 50%;}
+.circle span:nth-child(1){top: 859px;left: 202px;}
+.circle span:nth-child(2){top: 511px;left: 223px;}
+.circle span:nth-child(3){top: 261px;left: 743px;}
+
+.circle span:nth-child(4){top: 490px;left: 1036px;}
+.circle span:nth-child(5){top: 700px;left: 1082px;}
+.circle span:nth-child(6){top: 860px;left: 772px;}
+.circle span:nth-child(7){top: 839px;left: 346px;}
+.circle span:nth-child(8){top: 221px;left: 381px;}
+
+.circle span:nth-child(9){top: 260px;left: 927px;}
+.circle span:nth-child(10){top: 1040px;left: 543px;}
+.circle span:nth-child(11){top: 677px;left: 120px;}
+.circle span:nth-child(12){top: 99px;left: 813px;}
+.circle span:nth-child(13){top: 944px;left: 944px;}
+.circle span:nth-child(14){top: 1050px;left: 347px;}
+.circle span:nth-child(15){top: 500px;left: 52px;}
+.circle span:nth-child(16){top: 208px;left: 196px;}
+.circle span:nth-child(17){top: -19px;left: 572px;}
+.circle span:nth-child(18){top: 1037px;left: 927px;}
+
+.picAll{width: 669px;height: 462px; position: absolute;top: 294px;left: 316px;}
+.picAll img{width: 100%;}
+
+ul li{list-style: none;}

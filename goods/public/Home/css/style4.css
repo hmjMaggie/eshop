@@ -1,0 +1,87 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;color: #666;}
+em,i{font-style: normal;}
+body{background-color: #f5f8fd;}
+.inner{width: 1180px;margin: 0 auto;}
+img{margin: 0 auto;}
+.clearfix:after{content: '.';clear: both;visibility: hidden;height: 0;display: block;}
+
+.shoppIng_Top{height: 118px;border-bottom: 1px solid #de0049;background-color: #fff;}
+.shoppIng_Header{position: relative;padding-top: 5px;}
+.shoppIng_Ul_list{height: 46px;margin-top: 8px;width: 380px;}
+.shoppIng_Ul_list li{float: left;}
+.shoppIng_Ul_list a{display: inline-block;color:#202020;font-size: 14px;line-height: 46px;height: 46px;}
+.shoppIng_Ul_list span{margin: 0 12px;font-size: 14px;color: #dddddd;}
+
+.shoppIng_Ul_list a:hover{color: red;}
+.shoppIng_Header_Right{width: 215px;display: inline-block;position: absolute;top: 1px;right: 1px;}
+.shoppIng_Header_Right select{border: none;}
+.shoppIng_Header_Right  span{margin: 0 12px;}
+.shoppIng_Rpic{position: absolute;bottom: 0;right: 0;}
+
+#main{width: 100%;background: #f5f8fd;margin: auto;}
+#main .inner1{height:600px;width:1180px;margin: auto;background: linear-gradient(to right, /* 或 90deg */#f8f4d9 50%, #fff 0);background-size: 30px 100%;position: relative;}
+#main .left{width: 590px;height: 473px;background: #de0049;position: absolute;top: 65px;border-bottom-left-radius: 10%;border-top-left-radius: 10%;}
+#main .left img{margin: 49px 0 0 262px;}
+#main .left h3{margin: 10px 0 0 250px;font-size: 26px;color: white;}
+#main .left .title{height: 255px;}
+#main .left .title .square{float: left;width: 20px;height: 20px;background: #de0049;border-radius:50px;margin:40px 0 0 265px;border: 1px solid white;text-align: center;color: #FFFFFF;}
+#main .left .title .beside{float: left;margin:40px 0 0 4px;background: #de0049;color: #FFFFFF;} 
+#main .left .border_left{margin: 37px 0 0 230px;}
+#main .left .border_left .button1 input{font-size: 20px;color: #f0f0f0;width: 155px;height: 50px;border-radius: 50px;background-color: #de0049;border-color:white;cursor: pointer;}
+#main input {
+ border: 1px solid #005344;
+}
+#main .left .border_left .button2{margin: 20px 0 0 0;}
+#main .left .border_left .button2 .check{font-size: 20px;color: #f0f0f0;width: 155px;height: 50px;border-radius: 50px;background-color: #de0049;border-color:white;cursor: pointer;}
+#main .right .title{float: left;width: 460px;}
+#main .right .p1{margin: 50px 0 0 38px;font-size: 18px;color: #060606;font-weight: bold;}
+#main .right .p2{margin: 8px 0 0 38px;font-size: 14px;color:  #646464;}
+#main .right .p3{margin: 3px 0 0 109px;font-size: 14px;color:  #646464;}
+#main .right .p4{margin: 3px 0 0 38px;font-size: 14px;color:  #646464;}
+#main .right .p5{margin: 8px 0 0 38px;font-size: 14px;color:  #646464;}
+#main .right .p6{margin: 5px 0 0 38px;font-size: 14px;color:  #646464;}
+#main .right .p7{margin: 8px 0 0 38px;font-size: 14px;color: #646464;}
+#main .right .p8{margin: 5px 0 0 38px;font-size: 14px;color:  #646464;}
+#main .right .p9{margin: 8px 0 0 38px;font-size: 14px;color:  #646464;}
+#main .right .p10{margin: 5px 0 0 38px;font-size: 14px;color:  #646464;}
+#main .right .p11{margin: 8px 0 0 38px;font-size: 14px;color:  #646464;}
+#main .right .p12{margin: 8px 0 0 38px;font-size: 14px;color:  #646464;}
+#main .right .p13{margin: 8px 0 0 38px;font-size: 14px;color:  #646464;}
+#main .right .log{float: left;}
+#main .right .log img{margin-top: 312px;}
+#main .right{width: 590px;height: 473px;background:#fff;position: absolute;top: 65px;left: 590px;border-bottom-right-radius: 10%;border-top-right-radius: 10%;}
+#main .right .p14,.p15{font-size: 13px;color: #c2c2c2;}
+/*.footer{height: 550px;width: 1180px;background: #262626;margin: auto;}*/
+.footer{background: #383434;}
+.f-top{padding-top: 50px;}
+.f-top .left1{float: left;}
+.f-top dl{width: 215px;float: left;}
+.f-top dl a:hover{color:#c81623;}
+.f-top dd{height: 45px;line-height: 45px;}
+.f-top dd a{font-size: 18px;color: #c1bdbd;}
+.f-top dt{line-height: 25px;}
+.f-top dt a{font-size: 14px;color: #a8a3a3;}
+.f-top .right1{float: right;}
+.f-top .right1 p{line-height: 45px;color: #c1bdbd;text-align: right;}
+.f-top .right1 p:nth-child(1){font-size: 24px;}
+.f-top .right1 p:nth-child(2){font-size: 30px;}
+.f-mid{padding: 60px 0;height: 41px;border-bottom: 1px solid #c1bdbd;color: #c1bdbd;}
+.f-icon{float: left;}
+.f-icon li{float: left;}
+.f-icon a{display:inline-block;width: 40px;height: 41px;margin-right: 40px;background: url(../images/weibo.png) 0 0}
+.f-icon a:nth-child(2){background: url(../images/weibo.png) -80px 0;}
+.f-icon a:nth-child(3){background: url(../images/weibo.png) -160px 0;}
+.f-icon a:nth-child(4){background: url(../images/weibo.png) -240px 0;}
+.f-mid .right1{float: right;padding-right: 93px;height: 40px;font-size: 18px;}
+.f-mid .right1 p{line-height: 40px;float: left;}
+.f-mid .right1:hover span{transform: rotate(180deg);}
+.f-mid span{margin:11px 18px;font-size: 30px;display: inline-block;width: 20px;height: 10px;overflow: hidden;line-height: 1px;transition: all 0.5s;}
+.flag{width: 40px;height: 40px;display: inline-block;background: url(../images/flag-china.png);}
+.f-bot{padding: 47px 0 74px 0;text-align: center;color: #a8a3a3;font-size: 15px;}
+.f-bot ul{height: 35px;line-height: 35px;display: inline-block;}
+.f-bot li{float: left;}
+.f-bot a{display: inline-block;color: #a8a3a3;}
+.f-bot a:hover{color:#c81623;}
+.f-bot span{padding: 0 10px;}

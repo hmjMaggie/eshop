@@ -1,0 +1,61 @@
+
+.centerMac{height:820px;position: relative;}
+/*按钮计时器开关样式（5）*/
+.timeover{width: 110px;height: 38px;background: red;padding: 10px;border: none;border-radius: 10px;border-bottom-right-radius:24px;border-top-right-radius: 24px;border-style: none;}
+/*——————————————————————————————————————*/
+/*轮播图*/
+.ac{display: none;}
+.lunbotu{width:100%;height:100%;position:absolute;top: 0;left: 0;}
+.lunbotu .lunbo{width:100%;height:100%;display: block;position:absolute;left:0;top:0;}
+.changePic{height: 820px;position:relative;}
+/*———————————————————————————————————————*/
+.haha .landing{width:294px;height:392px;background-color:white;border-radius: 24px;position:absolute;top:150px;right:0;padding:80px 42px 0 44px;}
+
+/*账号登陆 / 验证登陆*/
+.landing .top{text-align: center;}
+.landing .top em{cursor: pointer;}
+.yanAc{color: #de0049;}
+
+/*——————————————————————————————————————*/
+.shugang{padding: 0 32px 0 32px;}
+.landing p{color:#808080;font-size: 20px;font-weight: bolder;font-family: "微软雅黑";}
+.haha .phone{padding-top:50px;}
+.phoneNum{width:284px;height:38px;border: 1px solid #c9c9c9;border-radius: 24px;margin-top:30px;}
+.phoneNum .left{float:left;width:84px;height:38px;border-bottom-left-radius:24px;border-top-left-radius: 24px;position: relative;}
+.phoneNum .number{line-height: 38px;font-size:14px;color:#808080;padding-left:20px;}
+
+/*.phoneNum .pic img{width:30px;height:30px;position: absolute;left:0 ;top:40px;}*/
+.phoneNum .subMenu{position: absolute;top:40px;left:0;width:77px;border: 1px solid #c9c9c9;border-top:none;display: none;}
+.phoneNum .subMenu li{color:#808080;font-size: 14px;padding-left:20px;}
+.subMenu li:hover{background-color:#de0049;opacity: 0.4;color:white;}
+.choice{width:36px;height:38px;position: absolute;right:5px;top:0;border-right: 1px solid #c9c9c9;line-height: 38px;padding-left:10px;font-weight: bolder;}
+.choice span{margin-left:10px;color:#bbbbbb;font-size:34px;font-family:consolas;width:16px;height:8px;overflow: hidden;line-height:2px;display: inline-block;}
+#vccorptype{float:right;outline: none;line-height: 38px;display: inline-block;border-bottom-right-radius:24px;border-top-right-radius: 24px;}
+.code{width:146px;float:left;outline: none;height:38px;display: inline-block;border-bottom-left-radius:24px;border-top-left-radius: 24px;border-right:1px solid #c9c9c9;padding-left:24px;}
+.btn{padding:0;margin:0;color:red;line-height:38px;width:110px;float:right;outline: none;height:38px;background:white;border-bottom-right-radius:24px;border-top-right-radius: 24px;border-style: none;}
+#submit1{background-color:#de0049;cursor: pointer;border: none;text-align: center;width:286px;height:40px;outline: none;color:white;border-radius: 24px;margin-top:40px;}
+#submit1 :hover{color:white;}
+.alink{margin-top:20px;}
+.alink a{font-size:14px;color:red;}
+#vccorptype,.code{color:808080;font-size:14px;border: none;}
+.btn{color:#de0049;cursor: pointer;}
+
+/*footer__________________________*/
+.footer{height:150px;background-color:white;}
+.navlist{float:left;}
+.navlist ol{margin-top:38px;}
+.navlist li{float:left;}
+.navlist li a{font-size:12px;color:#939394;}
+.navlist li a:hover{color:#de0049;}
+.navlist span{padding:0 8px 0 8px;font-size:12px;color:#939394;}
+.address{padding-top:19px;color:#939394;font-size:12px;}
+.logo_ft{float:right;margin-top:39px;}
+.logo_ft li{float:left;margin-left:40px;}
+.logo_ft li a{display:inline-block;width:40px;height:40px;background-image:url(../weibo.png);}
+.logo_ft .a2{background-position: -80px 0;}
+.logo_ft .a3{background-position: -160px 0;}
+.logo_ft .a4{background-position: -240px 0;}
+.logo_ft .a1:hover{background-position:0 40px;}
+.logo_ft .a2:hover{background-position:-80px 40px;}
+.logo_ft .a3:hover{background-position:-160px 40px;}
+.logo_ft .a4:hover{background-position:-240px 40px;}

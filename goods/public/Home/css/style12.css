@@ -1,0 +1,68 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,input,option,select,textarea,option{margin: 0;padding: 0;}
+/*菱形盒完美的做法是加个div，然后用定位去做，使得中心点对其才最准确*/
+ul{list-style: none;}
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: #666;}
+a:hover{color: #c81623;}
+img,input,textarea,button{border: none;}
+body{font-family: arial,"microsoft yahei","宋体";}
+.clearfix:after{content: ".";clear:both;font-size: 0;height:0;display:block;}
+.inner{width:1180px;margin:0 auto;}/*加inner直接居中*/
+
+.gao{background: #d4d4d4;height: 120px;}
+
+#banner{height:730px ;width: 1920px;margin: auto;position: relative;}
+#banner .pic{float: left;margin-left: 11px;}
+#banner .photo{float: left;margin-left: 11px;}
+#banner .roll{position: absolute;right: 348px;bottom: 0;}
+.photo1,.photo2,.photo3,.photo4,.photo5,.photo6,.photo7,.photo8,.photo9,.photo10{height: 334px;width: 375px;}
+
+.banner .photo1 {opacity:1;filter(alpha=100)}
+.banner .photo1:hover {opacity:0.3;filter(alpha=10)}
+.banner .photo2 {opacity:1;filter(alpha=100)}
+.banner .photo2:hover{opacity:0.3;filter(alpha=10)}
+.banner .photo3 {opacity:1;filter(alpha=100)}
+.banner .photo3:hover {opacity:0.3;filter(alpha=80)}
+.banner .photo4 {opacity:1;filter(alpha=100)}
+.banner .photo4:hover {opacity:0.3;filter(alpha=80)}
+.banner .photo5 {opacity:1;filter(alpha=100)}
+.banner .photo5:hover {opacity:0.3;filter(alpha=80)}
+.banner .photo6 {opacity:1;filter(alpha=100)}
+.banner .photo6:hover {opacity:0.3;filter(alpha=80)}
+.banner .photo7 {opacity:1;filter(alpha=100)}
+.banner .photo7:hover {opacity:0.3;filter(alpha=80)}
+.banner .photo8 {opacity:1;filter(alpha=100)}
+.banner .photo8:hover {opacity:0.3;filter(alpha=80)}
+.banner .photo9 {opacity:1;filter(alpha=100)}
+.banner .photo9:hover {opacity:0.3;filter(alpha=80)}
+.banner .photo10 {opacity:1;filter(alpha=100)}
+.banner .photo10:hover {opacity:0.3;filter(alpha=80)}
+
+.hahaha{height:2330px ;margin: auto;background: #d4d4d4;overflow: hidden;}
+#main .text{width: 220px;height: 2330px;float: left;background: #d4d4d4;}
+.main .text .frame1,.frame2,.frame3,.frame4,.frame5{height: 479px;}
+.main .text h6{font-size: 3em;color: red;}
+.main .p1{margin-top: 13px;}
+.main .p2{margin-top: 15px;}
+.main .box1{margin-top: 25px;}
+.main .text .box1 {width: 100px;height: 230px;border-top: 1px solid red;border-right: 1px solid red;}
+.main .pictiure{width:480px;height: 2330px;float: left;background: #d4d4d4;}
+.main .pictiure .same_box{height: 476px;}
+.main .pictiure .same_box .pictiure1{margin-top: 25px;}
+.main .title{width: 470px;height: 2330px;float: left;background: #d4d4d4;}
+.main .title .text1{height: 470px;width: 470px;margin-top: 26px;}
+.main .title .text2{height: 470px;width: 470px;margin-top: -36px;}
+.main .title .text3{height: 470px;width: 470px;margin-top: -8px;}
+.main .title .text4{height: 470px;width: 470px;margin-top: -10px;}
+.main .title .text5{height: 470px;width: 470px;margin-top: -6px;}
+.main .title .text1 .p10{margin-top:15px;color: #8d8d8d;}
+.main .title .text1 .p15{margin-top: 6px;color: #8d8d8d;}
+.main .title .text2 .p10{margin-top:15px;color: #8d8d8d;}
+.main .title .text2 .p15{margin-top: 6px;color: #8d8d8d;}
+.main .title .text3 .p10{margin-top:15px;color: #8d8d8d;}
+.main .title .text3 .p15{margin-top: 6px;color: #8d8d8d;}
+.main .title .text4 .p10{margin-top:15px;color: #8d8d8d;}
+.main .title .text4 .p15{margin-top: 6px;color: #8d8d8d;}
+.main .title .text5 .p10{margin-top:15px;color: #8d8d8d;}
+.main .title .text5 .p15{margin-top: 6px;color: #8d8d8d;}
+

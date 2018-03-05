@@ -1,0 +1,54 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;color: #666;}
+body{background-color: #f5f8fd;}
+.inner{margin: 0 auto;width: 1180px;}
+img{margin: 0 auto;}
+.clearfix:after{content: '.';clear: both;visibility: hidden;height: 0;display: block;}
+.shoppIng_Top{height: 118px;border-bottom: 1px solid #de0049;background-color: #fff;}
+.shoppIng_Header{position: relative;padding-top: 5px;}
+.shoppIng_Ul_list{height: 46px;margin-top: 8px;width: 360px;}
+.shoppIng_Ul_list li{float: left;}
+.shoppIng_Ul_list a{display: inline-block;color:#202020;font-size: 14px;line-height: 46px;height: 46px;}
+.shoppIng_Ul_list span{margin: 0 12px;font-size: 14px;color: #dddddd;}
+.shoppIng_Ul_list a:hover{color: red;}
+.shoppIng_Header p{position: absolute;display: inline-block;font-size: 12px;color: #7f7b7c;top: 82px;left:165px;font-weight:500;}
+.shoppIng_Header_Right{width: 200px;display: inline-block;position: absolute;top: 1px;right: 1px;padding-top: 23px;}
+.shoppIng_Header_Right div{float: left;}
+.shoppIng_Header_Right a{float: left;}
+.shoppIng_Header_Right  span{margin: 0 12px;}
+.shoppIng_Rpic{position: absolute;bottom: 0;right: 0;}
+.shoppIng_Main1{width:1180px ;background-color: #fff;margin-top: 27px;border-radius: 21px;}
+.order_1 .order_1_Title{height: 58px;}
+.order_1 .order_1_Title li{float: left;line-height: 58px;height: 58px;margin-left: 126px;font-size: 14px;color: #7f7b7c ;}
+.order_1 .order_1_Title li:nth-child(1){margin:0 200px 0 265px;}
+.order_1 .order_1_Comm {height: 85px;}
+.order_1 .order_1_Comm li{float: left;cursor: pointer;}
+.order_1_Comm_check{width: 29px;height: 28px;overflow: hidden;border-radius: 21px;border: 1px solid #666;margin: 25px 20px 0 54px;}
+.order_1_Comm_check:hover{border-color: red;}
+.check_AC{background-image: url(../images/shopp__06.jpg);border-color:  #fff;}
+.order_1_Comm_Details{width: 230px;font-size: 12px;line-height: 21px;margin: 13px 154px 0 76px;color: #545454;}
+.order_1_Comm_Unic{width: 70px;height: 21px;line-height: 21px;margin: 13px 43px 0 0;color: black;font-size: 16px;}
+.order_1_Comm_Number{width: 125px;height: 45px;resize: none;text-align: center ;border: 1px solid#666;overflow: hidden;position: relative;}
+.order_1_Comm_Number button{width:30px;height: 45px;line-height: 45px;background-color: #fff;border: none ;position: absolute;top:0;left: 0;cursor: pointer;font-size: 14px;}
+.order_1_Comm_Number i{font-style: normal;height: 45px;line-height: 45px;}
+.order_1_Comm_Number .btnAdd{right: 0;left: auto;}
+.order_1_Comm_Subtotal{width: 70px;font-size: 16px;height: 21px;line-height: 21px;margin: 13px 1px 0 70px;color: red;}
+.order_1_Comm_Btn{font-size: 18px;height: 21px;line-height: 21px;margin: 13px 1px 0 90px;cursor: pointer;}
+.order_Confirm{height: 77px;margin-top: 42px;position: relative;}
+.order_Confirm_Ul li {float: left;margin-right: 22px;height: 28px;line-height: 28px;}
+.Check_Btn{width: 29px;height: 28px;overflow: hidden;border-radius: 21px;border: 1px solid #666;margin-left: 56px;}
+.Check_Btn:hover{ border-color: red;}
+.total_Btn, .Settlement_Btn{position: absolute;top: 0;right: 261px;cursor: pointer;width: 180px;height: 35px;border: 1px solid #de0049;border-radius: 49px;text-align: center;padding-top: 15px;}
+.Settlement_Btn{right: 43px;background-color: #de0049;}
+.Settlement_Btn a{color: #fff;}
+.shoppIng_Main2_Box{width: 1180px;height: 80px;border-radius: 21px;margin:64px 0 22px 0;background-color: #fff;position: relative;}
+.shoppIng_Main2_Box span{display: block;width: 1080px;height: 20px;border-top: 3px solid #d8d8d8;position: absolute;top: 40px;left: 50px;}
+.shoppIng_Main2_Box  p{position: absolute;width: 212px;height: 80px;line-height: 80px;font-size: 18px;color: #808080;background-color:#FFF;padding-left: 15px;left: 484px;}
+.main3_Ulist li{width: 280px;height: 385px;float: left;position: relative;border-radius: 21px;background-color: #fff;margin:0 20px 20px 0;}
+.main3_Ulist li:nth-child(4),.main3_Ulist li:nth-child(8){margin-right: 0;}
+.main3_Ulist li .mask{width: 280px;height: 282px;background: rgba(0,0,0,.5);position: absolute;top:0;left: 0;display: none;border-radius: 14px 14px 0 0;}
+.main3_Ulist li:hover .mask{display: block;}
+.main3_Ulist li h3{height: 32px;line-height: 32px;font-weight: normal;margin: 20px 0 0 28px;color: #1e1e1e;}
+.main3_Ulist li p{height: 27px;height: 27px;margin-left: 28px;color: #9c9c9c;}
+.main3_Ulist li span{background: url(../images/shopp_main3_24.jpg)no-repeat;width: 17px;height: 11px;display: block;position: absolute;bottom: 31px;right: 31px;cursor: pointer;}

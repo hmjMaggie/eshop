@@ -1,0 +1,45 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;color: #666;}
+body{background-color: #f5f8fd;}
+.inner{margin: 0 auto;width: 1180px;}
+img{margin: 0 auto;}
+.clearfix:after{content: '.';clear: both;visibility: hidden;height: 0;display: block;}
+.shoppIng_Top{height: 118px;border-bottom: 1px solid #de0049;background-color: #fff;}
+.shoppIng_Header{position: relative;padding-top: 5px;}
+.shoppIng_Ul_list{height: 46px;margin-top: 8px;width: 360px;}
+.shoppIng_Ul_list li{float: left;}
+.shoppIng_Ul_list a{display: inline-block;color:#202020;font-size: 14px;line-height: 46px;height: 46px;}
+.shoppIng_Ul_list span{margin: 0 12px;font-size: 14px;color: #dddddd;}
+.shoppIng_Ul_list a:hover{color: red;}
+.shoppIng_Header p{position: absolute;display: inline-block;font-size: 12px;color: #7f7b7c;top: 82px;left:165px;font-weight:500;}
+.shoppIng_Header_Right{width: 200px;display: inline-block;position: absolute;top: 1px;right: 1px;padding-top: 23px;}
+.shoppIng_Header_Right div{float: left;}
+.shoppIng_Header_Right a{float: left;}
+.shoppIng_Header_Right  span{margin: 0 12px;}
+.shoppIng_Rpic{position: absolute;bottom: 0;right: 0;}
+
+.payment_Main{height: 580px;background-color: #fff;border-radius: 22px;margin-top: 64px;position: relative;}
+
+.payment_Main_Ulist{width: 1124px;height: 186px;border-bottom: 1px solid #aaa;margin-left: 30px;}
+.ul_Details{width:360px ;}
+.ul_Details li{font-size: 16px;color: #060606;line-height: 28px;}
+.ul_Details li:nth-child(1){font-size: 16px;font-weight:bolder;color: #060606;font-family: "微软雅黑";line-height: 45px;padding-top: 10px;}
+.ul_Details span{margin-left: 72px;}
+.main_Money{position: absolute;top: 0px;left: 400px;width: 140px;height: 60px;line-height: 60px;font-size: 16px;font-weight:bolder;color: #060606;font-family:"微软雅黑";}
+.main_Money span, .pay_Mo span{color: #dd0147;}
+.payment_Main .main_P{padding-left: 30px;height: 58px;line-height: 58px;margin-top: 5px;font-size: 16px;font-weight:bolder;color: #060606;font-family:"微软雅黑";}
+.pay_Mo{cursor: pointer;width: 1120px;height: 47px;border: 1px solid #de0049;margin-left: 27px;border-radius: 22px;background: url(../images/payment_pic_07.jpg)no-repeat;background-position: 40px 8px;position: relative;}
+.main_Payment{height: 47px;line-height: 47px;font-weight: bolder;position: absolute;top: 0;right: 10px;}
+
+.pay_Mo p{position: absolute;top: 0;left: 210px;height: 47px;line-height: 47px;}
+.circular{width: 20px;height: 20px;border-radius: 50%;position: absolute;top: 12px;left: 10px;}
+.add_Card{cursor: pointer;width: 95px;height: 20px;margin:22px 0 22px 32px;border: 1px solid #767676;border-radius: 10px;font-size: 14px;line-height: 20px;text-align: center;}
+.bank_Card{position: relative;}
+.bank_Card li{width: 323px;height: 188px;float: left;cursor: pointer;}
+.bank_Card li:nth-child(1){background-image: url(../images/payment_pic_11.jpg);margin-left: 27px;}
+.bank_Card li:nth-child(2){background-image: url(../images/payment_pic_13.jpg);margin: 0 76px;}
+.bank_Card li:nth-child(3){background-image: url(../images/payment_pic_15.jpg);}
+.bank_Card span{position: absolute;top: -203px;left: 143px;width: 200px;height: 200px;}
+.bank_Card span img{width: 100%;}
+.bank_Card .spanTwo{left: 542px;}

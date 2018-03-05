@@ -1,0 +1,86 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,input,option,select,textarea,option{margin:0;padding:0;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:#666;}
+a:hover{color:#c81623;}
+img,textarea,button{border: none;outline: none;}
+input{outline: none;}
+boby{font-family:arial,"Microsoft YaHei","宋体";position: relative;}
+i{font-style: normal;font-size: 13px;font-family: consolas;}
+.clearfix:after{content: ".";clear:both;font-size: 0;height:0;display:block;}
+.inner{width:1180px;margin:0 auto;}
+em{font-style: normal;}
+
+/*首页header区*/
+.header{background: #fff;border-radius: 44px;z-index: 10;position: absolute;top: 20px;left: 50%;transform: translateX(-590px);}
+.h-logo{width: 156px;height: 47px;padding: 8px 10px 0;float: left;cursor: pointer;}
+.h-logo img:nth-child(2){padding:10px 0 10px 15px;}
+.h-nav{padding:6px 0 6px 300px;float: left;}
+.h-nav li{float: left;padding-right:40px;height: 50px;line-height: 50px;}
+.h-nav li:nth-child(5){padding-right: 0;}
+.h-nav li a{font-size: 16px;color: #565656;}
+.h-nav li a:hover{color:#c81623;}
+.h-icon{float: right;padding: 20px 15px 20px 0;}
+.h-icon a{width: 22px;height: 20px;display: inline-block;margin-left: 25px;background: url(../images/sousuo.png) 0 -30px;}
+.h-icon a:hover{width: 22px;height: 20px;display: inline-block;margin-left: 25px;background: url(../images/sousuo.png) 0 0;}
+.h-icon a:nth-child(2){background: url(../images/sousuo.png) -51px  -30px;}
+.h-icon a:nth-child(2):hover{background: url(../images/sousuo.png) -51px  0;}
+.h-icon a:nth-child(3){background: url(../images/sousuo.png) -100px  -30px;}
+.h-icon a:nth-child(3):hover{background: url(../images/sousuo.png) -100px  0;}
+
+/*其他页面header区*/
+.shoppIng_Top{height: 118px;border-bottom: 1px solid #de0049;background-color: #fff;}
+.shoppIng_Header{position: relative;padding-top: 5px;}
+.shoppIng_Ul_list{height: 46px;margin-top: 8px;width: 360px;}
+.shoppIng_Ul_list li{float: left;}
+.shoppIng_Ul_list a{display: inline-block;color:#202020;font-size: 14px;line-height: 46px;height: 46px;}
+.shoppIng_Ul_list span{margin: 0 12px;font-size: 14px;color: #dddddd;}
+.shoppIng_Ul_list a:hover{color: red;}
+.shoppIng_Header p{position: absolute;display: inline-block;font-size: 12px;color: #7f7b7c;top: 82px;left:165px;font-weight:500;}
+.shoppIng_Header_Right{width: 200px;display: inline-block;position: absolute;top: 1px;right: 1px;padding-top: 23px;}
+.shoppIng_Header_Right div{float: left;}
+.shoppIng_Header_Right a{float: left;}
+.shoppIng_Header_Right  span{margin: 0 12px;}
+.shoppIng_Rpic{position: absolute;bottom: 0;right: 0;}
+
+/*占位用，拿去用可以删除,再加上自己的部分*/
+.box{height: 500px;}
+
+/*footer区*/
+.footer{background: #383434;}
+.f-top{padding-top: 50px;}
+.f-top .left{float: left;}
+.f-top dl{width: 215px;float: left;}
+.f-top dl a:hover{color:#c81623;}
+.f-top dd{height: 45px;line-height: 45px;}
+.f-top dd a{font-size: 18px;color: #c1bdbd;}
+.f-top dt{line-height: 25px;}
+.f-top dt a{font-size: 14px;color: #a8a3a3;}
+.f-top .right{float: right;}
+.f-top .right p{line-height: 45px;color: #c1bdbd;text-align: right;}
+.f-top .right p:nth-child(1){font-size: 24px;}
+.f-top .right p:nth-child(2){font-size: 30px;}
+.f-mid{padding: 60px 0;height: 41px;border-bottom: 1px solid #c1bdbd;color: #c1bdbd;}
+.f-icon{float: left;}
+.f-icon li{float: left;}
+.f-icon a{display:inline-block;width: 40px;height: 40px;margin-right: 40px;}
+
+.f-icon a:nth-child(1){background: url(../images/weibo.png) 0 0}
+.f-icon a:nth-child(1):hover{background: url(../images/weibo.png) 0 -42px}
+.f-icon a:nth-child(2){background: url(../images/weibo.png) -80px 0;}
+.f-icon a:nth-child(2):hover{background: url(../images/weibo.png) -80px -42px;}
+.f-icon a:nth-child(3){background: url(../images/weibo.png) -160px 0;}
+.f-icon a:nth-child(3):hover{background: url(../images/weibo.png) -160px 122px;}
+.f-icon a:nth-child(4){background: url(../images/weibo.png) -240px 0;}
+.f-icon a:nth-child(4):hover{background: url(../images/weibo.png) -240px 122px;}
+
+.f-mid .right{float: right;height: 40px;font-size: 18px;}
+.f-mid .right p{line-height: 40px;float: left;}
+.f-mid .right:hover span{transform: rotate(180deg);}
+.f-mid span{margin:11px 8px;font-size: 30px;display: inline-block;width: 20px;height: 10px;overflow: hidden;line-height: 1px;transition: all 0.5s;}
+.flag{width: 40px;height: 40px;display: inline-block;background: url(../images/flag-china.png);}
+.f-bot{padding: 47px 0 74px 0;text-align: center;color: #a8a3a3;font-size: 15px;}
+.f-bot ul{height: 35px;line-height: 35px;display: inline-block;}
+.f-bot li{float: left;}
+.f-bot a{display: inline-block;color: #a8a3a3;}
+.f-bot a:hover{color:#c81623;}
+.f-bot span{padding: 0 10px;}

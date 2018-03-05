@@ -1,0 +1,7 @@
+
+.main{background: #f37878;padding-top: 295px;text-align: center;color: #fff;}
+.main .err{line-height: 52px;padding-top: 24px;font-size: 15px;font-weight: lighter;}
+.main h2{line-height: 57px;font-size: 24px;font-weight: 400;margin-bottom: 86px;}
+button{border: none;height: 68px;font-size: 20px;font-weight: lighter;color:#fff;padding: 0 70px;background: #f56262;border-radius: 62px;}
+.xiaotu{width: 520px;height: 223px;margin-left: 30px;position: relative;display: inline-block;background: url(../images/xiaosheng.png) no-repeat;margin-top: 20px;padding-bottom:200px;}
+.xiaotu p{position: absolute;top: 184px;left: 127px;font-weight: lighter;}

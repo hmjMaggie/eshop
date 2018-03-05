@@ -1,0 +1,42 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,input,option,select,textarea,option{margin: 0;padding: 0;}
+/*菱形盒完美的做法是加个div，然后用定位去做，使得中心点对其才最准确*/
+ul{list-style: none;}
+a{text-decoration: none;color: #666;}
+a:hover{color: #c81623;}
+img,input,textarea,button{border: none;outline: none;}
+body{font-family: arial,"microsoft yahei","宋体";}
+.clearfix:after{content: '.';clear: both;visibility: hidden;height: 0;display: block;}
+.inner{width: 1210px;margin: 0 auto;}/*加inner直接居中*/
+.shoppIng_Top{height: 118px;border-bottom: 1px solid #de0049;background-color: #fff;}
+.shoppIng_Header{position: relative;padding-top: 5px;}
+.shoppIng_Ul_list{height: 46px;margin-top: 8px;width: 380px;}
+.shoppIng_Ul_list li{float: left;}
+.shoppIng_Ul_list a{display: inline-block;color:#202020;font-size: 14px;line-height: 46px;height: 46px;}
+.shoppIng_Ul_list span{margin: 0 12px;font-size: 14px;color: #dddddd;}
+.shoppIng_Ul_list a:hover{color: red;}
+.shoppIng_Header_Right{width: 215px;display: inline-block;position: absolute;top: 1px;right: 1px;}
+.shoppIng_Header_Right select{border: none;}
+.shoppIng_Header_Right  span{margin: 0 12px;}
+.shoppIng_Rpic{position: absolute;bottom: 0;right: 0;}
+
+.main{height:600px;width:1180px;margin: auto;background: linear-gradient(to right, /* 或 90deg */#f8f4d9 50%, #fff 0);background-size: 30px 100%;position: relative;}
+.main .left{width: 590px;height: 473px;background: #fff;position: absolute;top: 65px;border-bottom-left-radius: 10%;border-top-left-radius: 10%;}
+.main .left img{cursor: pointer;margin: 120px 0 0 180px;}
+.main .right{width: 590px;height: 473px;background:#a2a2a2;position: absolute;top: 65px;left: 590px;border-bottom-right-radius: 10%;border-top-right-radius: 10%;}
+.main .right h3{color: #fff;font-size: 45px;margin: 16px 0 0 200px;}
+.main .right .p1,.p2{font-size: 18px;color: #d4d4d4;}
+.main .right .title img{margin: 58px 0 0 258px;}
+.main .right .p1{margin: 30px 0 0 176px;color: #eaeaea;}
+.main .right .p2{margin: 10px 0 0 176px; color: #eaeaea;}
+.main .right .p3,.p4{font-size: 13px;color: #c2c2c2;}
+.main .right .button1{margin: 20px 0 0 240px;}
+.main .right .button1 .shop{font-size: 20px;color: #f0f0f0;width: 155px;height: 50px;
+border-radius: 52px;background-color:#a2a2a2;;border-color:white;cursor: pointer;}
+.main input {
+ border: 1px solid #005344;
+}
+.main .right .button2{margin: 20px 0 0 240px;}
+.main .right .button2 .check{font-size: 20px;color: #f0f0f0;width: 155px;height: 50px;border-radius: 52px;background-color:#a2a2a2;;border-color:white;cursor: pointer;}
+.main .right .border_left{float: left;}
+.main .right .border_right{float: right;margin: 22px 46px 0 0;}
+

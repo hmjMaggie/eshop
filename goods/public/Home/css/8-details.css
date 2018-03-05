@@ -1,0 +1,74 @@
+body{background: #f5f8fd;}
+
+/* banner 区 */
+.details{padding-top: 135px;height: 516px}
+.left{float: left}
+.left .pic img{width: 100%;}
+.left .pic{width: 350px;height: 350px;border:1px solid #ccc;margin-bottom: 30px}
+
+/*放大镜*/
+.pic .zoom{width: 200px;height: 200px;border: 1px solid #ccc;display: none;z-index: 10;position: absolute;background: greenyellow;opacity: .3;top: 0;left: 0;cursor: move;}
+
+.btn{position: relative}
+.option{position: relative;}
+.pic_max{width: 600px; height: 600px;overflow: hidden;display: none;border: 1px solid #ccc;position: absolute;top: 0;left: 350px;z-index: 10;}
+.pic_max img{position: absolute;top: 0;left: 0;}
+.pic_max li{float: left;}
+
+.left .btn li{width: 70px;height: 70px;float: left;border:2px solid transparent;margin:0 6px;padding:5px;cursor: pointer}
+.left .btn .first{margin-left: 40px}
+.left .btn .ac{border:2px solid red;}
+.left .btn li img{width: 100%;height: 100%}
+.shang{position: absolute;left: 0;top: 26px;cursor: pointer}
+.xia{position: absolute;right: 0;top: 26px;cursor: pointer}
+.right{padding:37px 0 0 50px;float: left;}
+.right h2{line-height: 78px;color: #040000;font-size: 24px}
+.right p{line-height: 93px;color: #8b8b8b;font-size: 14px;float: left;padding-right:26px}
+.price span{color: #eb0101;font-size: 45px;font-weight: bold;line-height: 93px;}
+.right .color em{display: inline-block;width: 38px;height: 38px;border-radius: 50%;margin-top: 27px;cursor: pointer}
+.one{background-color: red}
+.two{background-color: blue;margin: 0 15px}
+.three{background-color: brown}
+.num{position: relative;}
+.num i{line-height: 38px;height: 38px;padding: 0 16px;display: inline-block; border-radius: 8px;margin-top: 30px;text-align: center;border:1px solid #ccc;}
+.add{display: inline-block;width: 10px;height: 10px;cursor: pointer;background: url(../images/shangxia.png);position: absolute;top: 36px;left: 107px}
+.minus{display: inline-block;width: 10px;height: 10px;cursor: pointer;background: url(../images/shangxia.png) 0 -17px;position: absolute;top: 54px;left: 107px}
+
+.addShop{border-radius: 22px;line-height: 40px;cursor: pointer;border:2px solid #e60012;background-color: #fff;margin-right: 32px;background: url(../images/----shop.png) no-repeat 29px 15px;}
+.addShop a{color: #e60012;padding:0 50px 0 64px;}
+.buy{border-radius: 22px;line-height: 40px;cursor: pointer;border:2px solid #e60012;background: #e60012;}
+.buy a{color: #fff;padding:0 53px;}
+
+/* main 区 */
+.main{position: relative;}
+.main .mei{background: url(../images/chanpingxijie.png);width: 177px;position: absolute;top: 19px;left: 433px;height: 51px;font-size: 15px;line-height: 51px;text-align: center;color: #000;}
+.top{position: relative;height: 911px;}
+.tuwen{position: relative;}
+.tuwen .text{position: absolute;top: 213px;left: 469px;color: #fff;}
+.tuwen i{padding: 0 8px;}
+.tuwen h4{line-height: 32px;font-size: 18px;font-weight: normal;}
+.tuwen .line{width: 63px;height: 1px;margin-left: 3px;background: #fff;margin-bottom: 32px;}
+.tuwen h2{line-height: 36px;font-size: 24px;}
+.tuwen p{line-height: 50px;font-size: 14px;}
+.ding{position: absolute;top: 466px;left: 0;}
+.main .mid{background: #f8f8f8;}
+.main .first{padding-top: 20px;}
+.main .text1{float: left;padding: 90px 0 0 80px;color: #62d0d8;}
+.main .text1-left{float: right;padding: 90px 80px 0 0;}
+.main .text1 h2{line-height: 68px;font-size: 24px;}
+.main .text1 p{line-height: 26px;color: #888;font-size: 14px;}
+.main .text1 h1{line-height: 60px;font-size: 14px;font-weight: normal;}
+.mid .pic{float: right;}
+.mid .pic-left{float: left;}
+.bot{margin-bottom: 60px;}
+.bot .pic{width: 100%;}
+.bot .zhong{padding: 0 202px;}
+.bot .yanse{line-height: 112px;font-size: 12px;color: #8a8a8a;padding: 0 105px;}
+.bot p span{padding: 0 412px;}
+.bot .colorful{width: 639px;height: 218px;float: left;text-align: center;background: url(../images/caitu.png);color: #fff;}
+.colorful h2{padding-top: 64px;line-height: 54px;font-size: 36px;}
+.colorful p{padding-bottom: 64px;line-height: 36px;font-size: 16px;color: #fff;}
+.buttonAll{float: right;}
+.buttonAll div{width: 400px;height: 94px;text-align: center;display: block;margin: 5px 0 12px 0;background: #fff url(../images/jiantou.png) no-repeat 353px 74px;border-radius: 22px;}
+.buttonAll h2{line-height: 36px;font-size: 24px;color: #808080;padding-top: 16px;}
+.buttonAll p{line-height: 30px;font-size: 16px;color: #808080;padding-bottom: 12px;}
